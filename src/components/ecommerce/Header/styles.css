@@ -1,0 +1,12 @@
+header {
+  width: 100%;
+  height: 80px;
+  background: #5735d3;
+}
+.title {
+  width: 100%;
+  padding: 0.2em;
+  color: whitesmoke;
+  font-weight: 300;
+  font-size: 2em;
+}

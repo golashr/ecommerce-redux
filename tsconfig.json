@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "types": [
+      "react",
+      "node",
+      "jest",
+      "react-dom",
+      "react-router-dom",
+      "react-redux",
+      "redux-saga",
+      "enzyme",
+      "enzyme-adapter-react-16",
+      "reactstrap",
+      "lodash",
+      "jquery"
+    ],
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "Styles/*": ["src/styles/*"],
+      "Utils/*": ["src/utils//*"],
+      "Images/*": ["src/images/*"],
+      "Containers/*": ["src/containers/*"],
+      "Constants/*": ["src/constants/*"],
+      "Components/*": ["src/components/*"],
+      "Actions/*": ["src/actions/*"],
+      "Reducers/*": ["src/reducers/*"]
+    }
+  },
+  "exclude": ["node_modules"],
+  "include": ["src"]
+}
